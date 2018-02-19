@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="500" src="https://nikolaskama.me/content/images/2018/02/isitup.png" alt="IsItUp.Now">
+	<img width="600" src="https://nikolaskama.me/content/images/2018/02/isitup.png" alt="IsItUp.Now">
 </h1>
 
 <p align="center">A minimal service to check whether a site is 🆙 or broken.</p>
