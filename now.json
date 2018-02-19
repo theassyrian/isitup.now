@@ -1,0 +1,10 @@
+{
+    "name": "isitup",
+    "public": false,
+    "alias": [
+        "isitup.now.sh"
+    ],
+    "env": {
+        "NODE_ENV": "production"
+    }
+}

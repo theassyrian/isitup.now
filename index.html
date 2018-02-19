@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Is It Up Now?</title>
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="theme-color" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114418913-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-114418913-1');
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="heading">
+			<form action="/check" method="post">
+				<div class="left">
+					<label>Is</label>
+					<input class="url-form" type="text" name="url" id="url" placeholder="nsa.gov" required /><br>
+				</div>
+				<div class="right">
+					<label>up?</label>
+				</div>
+			</form>
+		</div>
+		<div class="footer">
+			<div class="left">
+				© 2018 — <a href="mailto:nikolaskam@gmail.com">k4m4</a>
+			</div>
+			
+			<div class="right">
+				<a href="https://github.com/k4m4" target="_blank">Github</a>
+				<div class="chat">
+					<a href="https://nikolaskama.me/contact" target="_blank">Chat</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+
+</html>
