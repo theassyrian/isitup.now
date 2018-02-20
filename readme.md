@@ -15,10 +15,18 @@
 
 # Installation
 
+Clone the repository and install all dependencies by running:
+
 ```
 ~ ❯❯❯ git clone https://github.com/k4m4/isitup.now
 ~ ❯❯❯ cd isitup.now/
 ~/isitup.now ❯❯❯ npm install
+```
+
+Subsequently, create a `.env` file and declare a variable called `SECRET` (for session security purposes):
+
+```
+~/isitup.now ❯❯❯ echo "SECRET=[your-secret-goes-here]" > .env
 ~/isitup.now ❯❯❯ npm start
 ```
 
