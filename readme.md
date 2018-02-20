@@ -13,7 +13,7 @@
 
 <br>
 
-# Installation
+# Installation & Configuration
 
 Clone the repository and install all dependencies by running:
 
@@ -61,7 +61,7 @@ Then, run `now` from *within* the directory of IsItUp.Now:
 
 # License
 
-Copyright (c) 2017 by Nikolaos Kamarinakis. Some rights reserved.
+Copyright (c) 2018 by Nikolaos Kamarinakis. Some rights reserved.
 
 `IsItUp.Now` is under the terms of the **MIT License**, following all clarifications stated in the [license file](license.md).
 

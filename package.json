@@ -23,5 +23,7 @@
     "is-up": "^2.0.0",
     "validator": "^9.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
 }
