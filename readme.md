@@ -63,6 +63,6 @@ Then, run `now` from *within* the directory of IsItUp.Now:
 
 Copyright (c) 2017 by Nikolaos Kamarinakis. Some rights reserved.
 
-`Donations` is under the terms of the **MIT License**, following all clarifications stated in the [license file](license.md).
+`IsItUp.Now` is under the terms of the **MIT License**, following all clarifications stated in the [license file](license.md).
 
 For more information on this project you can go ahead and email me anytime at **nikolaskam{at}gmail{dot}com**.
