@@ -39,7 +39,7 @@ app.post('/check', function(req, res, next) {
     site = validator.escape(req.sanitize(req.body.url).replace('https://', '').replace('http://', ''));
 
     if (!validator.isURL(site)) {
-        status = 'doesn\'t seem to be a valid URL.'
+        status = 'doesn\'t seem to be a valid url.'
 
         fs.readFile(__dirname + '/status.html', function(err, data) {
             if (err) {
