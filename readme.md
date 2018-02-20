@@ -30,7 +30,7 @@ Subsequently, create a `.env` file and declare a variable called `SECRET` (for s
 ~/isitup.now ❯❯❯ npm start
 ```
 
-- You can then access the service by navigating to `localhost:3000`.
+You can then access the service by navigating to `localhost:3000`.
 
 
 <br>
