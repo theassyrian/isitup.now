@@ -24,7 +24,8 @@ dotenv.load();
 app.use(session({
     secret: process.env.SECRET,
     cookie: {
-        httpOnly: true, 
+        maxAge:60000,
+        httpOnly: true,
         secure: true
     },
     resave: false,

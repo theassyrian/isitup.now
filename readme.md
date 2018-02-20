@@ -52,7 +52,7 @@ Then, run `now` from *within* the directory of IsItUp.Now:
 <br>
 
 # Credits
-- IsItUp.Now is basically a remake of [isitup.org](https://github.com/sjparkinson/isitup.org) in Node.js, using Express. 
+- IsItUp.Now is basically a remake of [isitup.org](https://github.com/sjparkinson/isitup.org) & [downforeveryoneorjustme.com](http://downforeveryoneorjustme.com) in Node.js, using Express. 
 - It was developed as part of my Node.js learning experience. I have uploaded the code with the intention of helping out others who are also trying to learn the node environment.
 - Most of the styling was adapted from [Evil Rabbit](https://twitter.com/evilrabbit_)'s [front site](https://github.com/evilrabbit/front).
 
