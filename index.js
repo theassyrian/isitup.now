@@ -1,13 +1,13 @@
-var express      = require('express');
-var bodyParser   = require('body-parser');
-var fs           = require('fs');
-var session      = require('express-session');
-var isUp         = require('is-up');
-var validator    = require('validator');
-var sanitizer    = require('express-sanitizer');
-var helmet       = require('helmet');
-var dotenv       = require('dotenv')
-var app          = express();
+var express       = require('express');
+var bodyParser    = require('body-parser');
+var fs            = require('fs');
+var cookieSession = require('cookie-session')
+var isUp          = require('is-up');
+var validator     = require('validator');
+var sanitizer     = require('express-sanitizer');
+var helmet        = require('helmet');
+var dotenv        = require('dotenv')
+var app           = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -21,15 +21,13 @@ app.disable('x-powered-by')
 app.use(sanitizer())
 app.use(helmet());
 dotenv.load();
-app.use(session({
+app.use(cookieSession({
     secret: process.env.SECRET,
     cookie: {
         maxAge:60000,
         httpOnly: true,
         secure: true
-    },
-    resave: false,
-    saveUninitialized: true
+    }
 }));
 
 app.get('/', function(req, res) {
