@@ -2,6 +2,12 @@
   "name": "isitup.now",
   "version": "1.0.0",
   "description": "Minimal service to check whether a site is up or broken.",
+  "license": "MIT",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,8 +17,6 @@
     "status",
     "isitup"
   ],
-  "author": "k4m4",
-  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cookie-session": "^2.0.0-beta.3",
