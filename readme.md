@@ -14,6 +14,8 @@
 <br>
 
 # Installation & Configuration
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fk4m4%2Fisitup.now.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fk4m4%2Fisitup.now?ref=badge_shield)
+
 
 Clone the repository and install all dependencies by running:
 
@@ -68,3 +70,5 @@ Copyright (c) 2018 by Nikolaos Kamarinakis. Some rights reserved.
 `IsItUp.Now` is under the terms of the **MIT License**, following all clarifications stated in the [license file](license.md).
 
 For more information on this project you can go ahead and email me anytime at **nikolaskam{at}gmail{dot}com**.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fk4m4%2Fisitup.now.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fk4m4%2Fisitup.now?ref=badge_large)
